@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
-a {
-    text-decoration: none;
-}
-
 body {
     background: #FFFFFF;
+    font-family: Roboto;
+    color: #ffffff;
 }
 
 .container {
@@ -44,15 +44,60 @@ body {
 }
 
 .logo {
-    align-self: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.svg-white {
+    fill: white;
+    height: 48px;
+    width: 48px;
+}
+
+#logo {
+    height: 96px;
+    width: 96px;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul,a {
+    color: #ffffff;
+}
+
+.sidebar-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul > li {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+ul > li a {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .sidebar-nav {
     padding: 24px 0px;
+}
+
+.sidebar-nav-options {
+    padding-top: 128px;
 }
 
 .content {
