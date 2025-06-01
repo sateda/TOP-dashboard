@@ -31,10 +31,10 @@ body {
     display: flex;
 }
 
-.search-svg {
+.header-svg {
     height: 32px;
     width: 32px;
-    padding-right: 24px;
+    padding-right: 32px;
     align-self: center;    
 }
 
@@ -48,7 +48,23 @@ body {
 }
 
 .notifications {
+    display: flex;
     justify-self: right;
+    align-items: center;
+}
+
+#notification-text {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 32px;
+}
+
+.avatar {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .header-buttons {
@@ -65,7 +81,7 @@ body {
 
 .logo {
     display: flex;
-    align-items: center;
+    padding-top: 42px;
     font-size: 32px;
     font-weight: bold;
 }
@@ -77,8 +93,14 @@ body {
 }
 
 #logo {
-    height: 96px;
-    width: 96px;
+    height: 72px;
+    width: 72px;
+}
+
+#logo-text {
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: 32px;
 }
 
 ul {
