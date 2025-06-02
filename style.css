@@ -21,7 +21,7 @@ body {
 .header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(1fr, 2);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     padding: 0px 24px;
     grid-column: 2;
@@ -69,6 +69,25 @@ body {
     object-fit: cover;
 }
 
+#big-avatar {
+    width: 98px;
+    height: 98px;
+    padding: 0px;
+}
+
+.welcome-message {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#big-text {
+    font-size: 32px;
+}
+
 .header-buttons {
     justify-self: right;
 }
@@ -84,7 +103,7 @@ body {
 
 .logo {
     display: flex;
-    padding-top: 42px;
+    padding-top: 0px;
     font-size: 32px;
     font-weight: bold;
 }
@@ -98,11 +117,12 @@ body {
 #logo {
     height: 72px;
     width: 72px;
+    padding-top: 26px;
 }
 
 #logo-text {
-    padding-top: 12px;
     padding-left: 12px;
+    padding-top: 46px;
     font-size: 32px;
 }
 
