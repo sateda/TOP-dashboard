@@ -184,9 +184,17 @@ ul > li a {
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 72px 1fr 1fr;
     background-color: #E2E8F0;
     padding: 24px;
+}
+
+.content-title {
+    align-self: last baseline;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
 }
 
 .projects {
@@ -195,7 +203,7 @@ ul > li a {
     grid-template-rows: repeat(3, 1fr);
     gap: 24px;
     grid-column: 1;
-    grid-row: 1 / 3;
+    grid-row: 2 / 4;
 }
 
 .card {
