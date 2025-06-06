@@ -8,7 +8,7 @@
 body {
     background: #FFFFFF;
     font-family: Roboto;
-    color: #ffffff;
+    color: #000000
 }
 
 .container {
@@ -140,6 +140,7 @@ body {
     padding-left: 12px;
     padding-top: 46px;
     font-size: 32px;
+    color: #FFFFFF;
 }
 
 ul {
@@ -201,7 +202,8 @@ ul > li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 24px;
+    gap: 42px;
+    margin-bottom: 72px;
     grid-column: 1;
     grid-row: 2 / 4;
 }
@@ -209,7 +211,11 @@ ul > li a {
 .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000000
+    border: 0px solid #000000;
+    border-radius: 12px;
+    box-shadow: 6px 9px 6px rgb(190, 190, 190);
+    background-color: #FFFFFF;
+    padding: 42px;
 }
 
 .project-action {
