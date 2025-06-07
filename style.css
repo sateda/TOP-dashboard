@@ -207,7 +207,7 @@ ul > li a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 42px;
-    margin-bottom: 72px;
+    margin-bottom: 16px;
     grid-column: 1;
     grid-row: 2 / 4;
 }
@@ -256,7 +256,6 @@ ul > li a {
     margin-left: 42px;
     display: flex;
     flex-direction: column;
-
     border-radius: 8px;
     box-shadow: 6px 9px 6px rgb(190, 190, 190);
     background-color: #FFFFFF;
@@ -279,4 +278,46 @@ ul > li a {
 hr {
     border: 1px solid #83838350;
     margin-bottom: 12px;
+}
+
+#trending {
+    color: #000000;
+    padding-left: 42px;
+    margin-top: 24px;
+}
+
+.trending-container {
+    margin-bottom: 0px;
+}
+
+.trending-card {
+    margin-left: 42px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 6px 9px 6px rgb(190, 190, 190);
+    background-color: #FFFFFF;
+    padding: 42px;
+}
+
+.trending-item {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.trending-account {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.trending-project {
+    color: #838383;
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.trending-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
